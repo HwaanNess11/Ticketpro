@@ -24,17 +24,17 @@
     {
         $artis = (isset($_POST["artista"]) && $_POST["artista"] != "") ? $_POST["artista"] : "No seleccionaste el artista";
         if($artis == "Standing Egg")
-            echo "<img src=img/stegg.jpg alt=StandingEgg height=300px></img>";
+            echo "<img src=stegg.jpg alt=StandingEgg height=300px></img>";
         if($artis == "Cavetown")
-            echo "<img src=img/cvtwn.jpg alt=Cavetown height=300px></img>";
+            echo "<img src=cvtwn.jpg alt=Cavetown height=300px></img>";
         if($artis == "Golden Child")
-            echo "<img src=img/golcha.jpg alt=GoldenChild height=300px></img>";
+            echo "<img src=golcha.jpg alt=GoldenChild height=300px></img>";
         if($artis == "RADWIMPS")
-            echo "<img src=img/rad.jpg alt=RADWIMPS height=300px></img>";
+            echo "<img src=rad.jpg alt=RADWIMPS height=300px></img>";
         if($artis == "ZAZ")
-            echo "<img src=img/zaz.jpg alt=ZAZ height=300px></img>";
+            echo "<img src=zaz.jpg alt=ZAZ height=300px></img>";
         if($artis == "Maneskin")
-            echo "<img src=img/mask.jpg alt=Maneskin height=300px></img>";
+            echo "<img src=mask.jpg alt=Maneskin height=300px></img>";
 
     }
 
@@ -43,28 +43,28 @@
     {
         $lug = (isset($_POST["lugar"]) && $_POST["lugar"] != "") ? $_POST["lugar"] : "Especifica el lugar";
         if($lug == "Palacio de los deportes")
-            echo "<img src=img/palacio.jpg alt=Pdld height=120px></img>";
+            echo "<img src=palacio.jpg alt=Pdld height=120px></img>";
         if($lug == "Foro Sol")
-            echo "<img src=img/foro.jpg alt=Fs height=120px></img>";
+            echo "<img src=foro.jpg alt=Fs height=120px></img>";
         if($lug == "Auditorio Nacional")
-            echo "<img src=img/auditorio.jpg alt=AudNac height=120px></img>";
+            echo "<img src=auditorio.jpg alt=AudNac height=120px></img>";
         if($lug == "Frontón México")
-            echo "<img src=img/fronton.jpg alt=FrontMe height=120px></img>";
+            echo "<img src=fronton.jpg alt=FrontMe height=120px></img>";
         if($lug == "Auditorio BB")
-            echo "<img src=img/bb.jpg alt=Audbb height=120px></img>";
+            echo "<img src=bb.jpg alt=Audbb height=120px></img>";
     }
 
     function zona()
     {
         $zon = (isset($_POST["zona"]) && $_POST["zona"] != "") ? $_POST["zona"] : "Especifica la zona";
         if($zon == "General")
-            echo "<img src=img/general.jpg alt=general height=120px></img>";
+            echo "<img src=general.jpg alt=general height=120px></img>";
         if($zon == "Balcón")
-            echo "<img src=img/balcon.jpg alt=balcon height=120px></img>";
+            echo "<img src=balcon.jpg alt=balcon height=120px></img>";
         if($zon == "Butacas")
-            echo "<img src=img/butacas.jpg alt=butacas height=120px></img>";
+            echo "<img src=butacas.jpg alt=butacas height=120px></img>";
         if($zon == "VIP")
-            echo "<img src=img/vip.jpg alt=vip height=120px></img>";
+            echo "<img src=vip.jpg alt=vip height=120px></img>";
     }
 
     function extras()
