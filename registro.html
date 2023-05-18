@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Ticketpro</title>
+    <link rel="icon" href="img/ticket.png" type="image/png"></link>
+</head>
+<body>
+    <h1>Bienvenido a <font color=#fcdb03>Ticket</font><font color=#023966>pro</font></h1>
+    <h1 align="center">Consigue aquí tus boletos</h1>
+    <h3>Llena los datos para obtener tus boletos</h3>
+        <form action="./boletos.php" method="post" target="_blank">
+        <fieldset><br>
+            Nombre: <input type="text" placeholder="nombre" id="nombre" name="nombre" required/><br><br>
+            Apellido: <input type="text" placeholder="apellido" id="apellido" name="apellido" required/><br><br>
+            Artista:
+            <select name="artista" required>
+                <option value="Standing Egg">Standing Egg</option>
+                <option value="Cavetown">Cavetown</option>
+                <option value="Golden Child">Golden Child</option>
+                <option value="RADWIMPS">RADWIMPS</option>
+                <option value="ZAZ">ZAZ</option>
+                <option value="Maneskin">Maneskin</option>
+            </select><br><br>
+            Fecha: <input type="date" name="fecha" value="fecha" required/><br><br>
+            Lugar:<br>
+                <input type="radio" name="lugar" value="Palacio de los deportes"/>  Palacio de los deportes<br>
+                <input type="radio" name="lugar" value="Foro Sol"/>  Foro Sol<br>
+                <input type="radio" name="lugar" value="Auditorio Nacional"/>  Auditorio Nacional<br>
+                <input type="radio" name="lugar" value="Frontón México"/>  Frontón México<br>
+                <input type="radio" name="lugar" value="Auditorio BB"/>  Auditorio BB<br><br>
+            Zona:
+            <select name="zona" required>
+                <option value="General">General</option>
+                <option value="Balcón">Balcón</option>
+                <option value="Butacas">Butacas</option>
+                <option value="VIP">VIP</option>
+            </select><br><br>
+            Número de boletos: <input type="number" placeholder="1" max="15" min="1" name="bol" required/><br><br>
+            Extra:<br>
+            <input type="checkbox" name="extra1" value="Paquete con comida"/> Paquete con comida<br>
+            <input type="checkbox" name="extra2" value="Bebidas"/> Bebidas<br>
+            <input type="checkbox" name="extra3" value="Estacionamiento"/> Estacionamiento<br>
+            <input type="checkbox" name="extra4" value="Fotos con el Artista"/> Fotos con el Artista<br><br>
+
+            <input type="submit" value="Obtener los boletos"/>
+            <input type="reset" value="Cancelar"/>
+        </fieldset>
+    </form>
+</body>
+</html>
