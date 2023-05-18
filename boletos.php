@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ticketpro</title>
-    <link rel="icon" href="img/ticket.png" type="image/png"></link>
+    <link rel="icon" href="https://acortar.link/DNjmTt" type="image/png"></link>
 </head>
 <body>
 <h1><font color=#fcdb03>Ticket</font><font color=#023966>pro</font></h1>
@@ -165,7 +165,7 @@
 
         if($nBolw>15)
             echo "<h4 align=center>No es posible imprimir más de 15 boletos, faltaron ", $nBolw-15 , " de los $nBolw solicitados.</h4>";
-    }
+    } 
 ?>
 </body>
 </html>
